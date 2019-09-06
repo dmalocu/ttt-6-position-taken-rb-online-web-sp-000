@@ -4,6 +4,7 @@ def position_taken?(board, index)
     return FALSE
   elsif board[index] == "X"
     return TRUE
-  elsif board[index] == "X"
+  elsif board[index] == "O"
+    return TRUE
   end
 end
